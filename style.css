@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+}
+body{
+  overflow-x: hidden;
+  background-image: url(gpt9.jpg);
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* #rectangle{
+  height: 100px;
+  background:rgb(255, 255, 255);
+}
+.container{
+text-align: center;
+left: 0;
+right: 0;
+display: inline;
+} */
+.NavBar{
+left: 0;
+padding:0;
+display: inline-block;
+justify-content:space-between;
+align-items: center;
+text-decoration: none;
+}
+header{
+padding: 10px 100px ;
+display:flex;
+justify-content:space-between;
+align-items: center;
+font-size: 25px;
+margin: auto;
+margin-top: 0;
+}
+a {
+line-height: 6em;
+text-decoration: none;
+padding: 25px;
+color:#555; 
+/* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
+}
+/* header::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18%;
+  background-image: linear-gradient(to left, rgb(236, 236, 236), rgba(255, 255, 255, 0.445)); 
+  z-index: -1; /* Place the rectangle behind the text */
+ */
+a {
+  display: inline-block;
+  position: relative;
+  color: #555;
+}
+.NavBar a {
+  text-decoration: none;
+  position: relative;
+}
+
+.NavBar a:hover::after {
+  content: '';
+  position: absolute;
+  align-items: center;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #8c97af; 
+  transition: width 0.5s ease-in-out;
+  /* Change this to the desired line color */
+}
+.logoDD{
+  padding-top: 40px;
+  width: 7%;
+}
+.loginbtn{
+  width: 130px;
+  height: 40px;
+  background-color: #c52817;
+  border: 1px solid #c52817;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  cursor:pointer;
+  transition: .5s;
+  font-size: 15px;
+  }
+  .signupbtn{
+  width: 130px;
+  height: 40px;
+  background-color: #069037;
+  border: 1px solid #069037;
+  border-radius: 10px;
+  text-decoration: none;
+  color:white ;
+  cursor:pointer;
+  transition: .5s;
+  font-size: 15px;
+  }
+  .loginbtn.loginbtn:hover{
+  background: #981f12;
+  color: rgb(255, 255, 255);
+  }
+  .signupbtn.signupbtn:hover{
+  background: #045d23;
+  color: rgb(255, 255, 255);
+  }
+h1{
+  margin-left: 35px;
+  font-size: 70px;
+  color: #555;
+}
+main{
+  margin-top: 20px;
+}
+.mainpara{
+  margin-left: 160px;
+  border-left: 2px solid #414d66;
+  height: 180px;
+  color: #414d66;
+  display: block;
+  text-align: left;
+  margin-top: 150px;
+  padding-top: 14px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+.mainimg{
+  display: block;
+  margin-top: 0;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: -150px;
+}
+.mainbtn{
+  margin: 30px;
+  margin-left: 160px;
+  width: 28em;
+  height: 50px;
+  background-color: #006699;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.mainbtn:hover{
+  background-color: #00476a;
+  color: #ffffff;
+  border: 1px solid #414d66;
+}
+.socialmedia{
+  display: flex;
+  display: inline-block;
+  margin-top: 120px;
+  margin-left: 77em;
+  width: 13%;
+}
+/* .designtoolsimg{
+  display: flex;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 200px;; 
+  width: 18%;
+} */
+.contactinfo{
+  position: absolute;
+  top: 45em;
+  left: 160px;
+  color: #414d66;
+  font-family: 'Barlow','Sanserif';
+}
+.contact{
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #414d66;
+}
+h6{
+  font-size: 20px;
+  margin-left: 50px;
+  
+}
+.phemaill{
+  display: inline-block;
+  position: absolute;
+  width: 13%;
+  top: 70px;
+}
+p{
+  margin-top: 35px;
+  margin-right: 40px;
+  text-align: end;
+  color: #414d66;
+}
